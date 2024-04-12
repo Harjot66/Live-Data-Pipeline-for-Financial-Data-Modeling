@@ -7,7 +7,7 @@ Problem Statement: How can a robust data pipeline infrastructure support value s
 This project successfully implemented a live data pipeline for financial data modeling, aimed at supporting value stock investing for individuals with limited financial knowledge. Leveraging AWS cloud infrastructure (Lambda, S3, RDS, ECS, Fargate), the pipeline automated data collection, cleaning, transformation, storage, and serving processes. Financial data was scraped from Yahoo Finance using the "yfinance" Python module, ensuring regular updates and accuracy. The resulting Streamlit dashboard, provided users with dynamic and interactive visualizations, facilitating insights into various companies' stock performance. Despite limitations such as expertise gaps and Lambda constraints, the project laid a strong foundation for future enhancements, including deeper visualizations, exploring AWS QuickSight for comprehensive dashboards, and leveraging web scraping for dynamic data acquisition. Overall, the project demonstrated the effective implementation of a robust data pipeline for financial data modeling on the AWS cloud platform, highlighting key learnings in AWS product usage, code optimization, and project management.
 Section 2: Data Engineering Lifecycle
 
-## Section 2.0: Pipeline Diagram
+## Section 2: Pipeline Diagram
 
 ## Section 2.1: Data Generation
 
