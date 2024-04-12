@@ -41,15 +41,6 @@ The approach we adopted for this dashboard was to cover a few basic visualizatio
 
 Through this project, we've gained invaluable insights into building an end-to-end data pipeline on AWS cloud infrastructure. We utilized the "yfinance" Python module for continuous data scraping from Yahoo Finance, ensuring our dataset remained accurate and up-to-date. Challenges in data ingestion were overcome by implementing batching and leveraging an EC2 instance due to Lambda timeout constraints. Storage optimization was achieved by segregating data storage between Amazon S3 for raw and intermediate data and Amazon RDS Postgresql for final, usable data, ensuring efficient querying and data integrity. Efficient data transformation processes involved streamlining data, filling missing values, and compressing data in Parquet format for performance and cost-effectiveness. Hosting our dashboard on AWS Fargate using ECS, coupled with Docker for reliability, SQL querying for data retrieval, and Streamlit for dynamic visualizations, ensured seamless data serving and user interaction. Acknowledging limitations such as lack of expertise and AWS Lambda constraints, future steps include deeper visualizations with domain experts, exploring AWS QuickSight for a comprehensive dashboard solution, and utilizing web scraping for obtaining a dynamic list of tickers. Overall, this project provided us with valuable experience in AWS product usage, code optimization for cost reduction, and effective data engineering project management.
 
-## Section 5: Code and a Static Link to the Project
-
-Static Link: http://100.26.146.168:8501/
-Retrieval.py: Appendix A
-Cleaning.py: Appendix B
-TableTransfer.py: Appendix C
-StreamlitDashboard.py: Appendix D.01
-Dockerfile: Appendix D.02
-Requirements.txt: Appendix D.03
-
 ## References
+
 yfinance. (2024) yfinance pypi. https://pypi.org/project/yfinance/
